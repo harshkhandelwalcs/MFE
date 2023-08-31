@@ -1,0 +1,15 @@
+{
+  "name": "root",
+  "private": true,
+  "workspaces": [
+    "mfe1",
+    "shell"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "lerna": "^7.2.0"
+  },
+  "scripts": {
+    "start-all": "lerna exec --parallel -- npm start"
+  }
+}
